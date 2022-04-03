@@ -18,8 +18,8 @@ const Home = () => {
                     <Col className="order-2 order-md-1 mt-5 mt-md-0">
                         <LeftSide />
                     </Col>
-                    <Col className="order-1 order-md-2">>
-                        <img src={laptop} className="img-fluid" alt="" />
+                    <Col className="order-1 order-md-2">
+                        <img style={{ borderRadius: "25px" }} src={laptop} className="img-fluid" alt="" />
                     </Col>
                 </Row>
                 <section className="my-5 text-center">
