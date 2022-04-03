@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Leanne Graham",
+        "email": "Sincere@april.biz",
+        "review": "This laptop in this budget is best for me.",
+        "rating": 4.9
+    },
+    {
+        "id": 2,
+        "name": "Ervin Howell",
+        "email": "Shanna@melissa.tv",
+        "review": "This laptop is best for coding",
+        "rating": 5
+    },
+    {
+        "id": 3,
+        "name": "Clementine Bauch",
+        "email": "Nathan@yesenia.net",
+        "review": "This laptop is best in this budget",
+        "rating": 4.7
+    },
+    {
+        "id": 4,
+        "name": "Patricia Lebsack",
+        "email": "Julianne.OConner@kory.org",
+        "review": "This laptop in this budget is best for me.",
+        "rating": 4.5
+    },
+    {
+        "id": 5,
+        "name": "Chelsey Dietrich",
+        "email": "Lucio_Hettinger@annie.ca",
+        "review": "This laptop is best for coding",
+        "rating": 4.9
+    },
+    {
+        "id": 6,
+        "name": "Mrs. Dennis Schulist",
+        "email": "Karley_Dach@jasper.info",
+        "review": "This laptop is best in this budget",
+        "rating": 5
+    }
+]
