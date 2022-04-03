@@ -4,7 +4,7 @@
         "name": "Leanne Graham",
         "email": "Sincere@april.biz",
         "review": "This laptop in this budget is best for me.",
-        "rating": 4.9
+        "rating": 4.3
     },
     {
         "id": 2,
@@ -18,7 +18,7 @@
         "name": "Clementine Bauch",
         "email": "Nathan@yesenia.net",
         "review": "This laptop is best in this budget",
-        "rating": 4.7
+        "rating": 4.1
     },
     {
         "id": 4,
@@ -32,7 +32,7 @@
         "name": "Chelsey Dietrich",
         "email": "Lucio_Hettinger@annie.ca",
         "review": "This laptop is best for coding",
-        "rating": 4.9
+        "rating": 4.5
     },
     {
         "id": 6,

@@ -1,0 +1,21 @@
+.reviewContainer {
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.imageContainer {
+    width: 70px;
+    height: 70px;
+}
+
+.imageContainer img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.ratingContainer {
+    text-align: left;
+    padding-left: 10px;
+}

@@ -2,6 +2,7 @@ import React from 'react';
 import { Card, Col } from 'react-bootstrap';
 import "./ReviewCard.css";
 import userImg from '../../images/user.jpg';
+import Rating from 'react-rating';
 
 const ReviewCard = ({ review }) => {
     return (
@@ -15,7 +16,9 @@ const ReviewCard = ({ review }) => {
                             </div>
                             <div className="ratingContainer">
                                 <h3>{review.name}</h3>
+                                <p><small>{review.email}</small></p>
                                 <p>{review.review}</p>
+                                <p style={{ display: "flex", alignItems: "center" }}>Rating: <Rating initialRating={review.rating} readonly fullSymbol={<img src="https://dreyescat.github.io/react-rating/assets/images/star-full.png" alt='Rating Image' className="icon" />} /> {review.rating}</p>
                             </div>
                         </div>
                     </Card.Body>

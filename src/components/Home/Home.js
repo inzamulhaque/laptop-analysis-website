@@ -1,15 +1,16 @@
 import React, { useEffect, useState } from 'react';
-import { Col, Container, Row } from 'react-bootstrap';
+import { Button, Col, Container, Row } from 'react-bootstrap';
 import LeftSide from './LeftSide';
 import ReviewCard from '../ReviewCard/ReviewCard';
 import laptop from "../../images/laptop.jpg";
 import useReviews from "../../hooks/useReviews";
+import { useNavigate } from 'react-router-dom';
 
 const Home = () => {
     const [recentReviews, setRecentReviews] = useState([]);
     const reviews = useReviews();
     useEffect(() => setRecentReviews(reviews.slice(0, 3)), [reviews]);
-    // const recentReviews = reviews.slice(0, 3);
+    const navigate = useNavigate();
     return (
         <>
             <Container className="mt-5">
@@ -21,13 +22,14 @@ const Home = () => {
                         <img src={laptop} className="img-fluid" alt="" />
                     </Col>
                 </Row>
-                <section className="mt-5 text-center">
+                <section className="my-5 text-center">
                     <h2> <span className="text-warning">Recent</span> <span className="text-primary">Reviews</span> </h2>
                     <Row xs={1} md={2} lg={3} className="mt-3">
                         {
                             recentReviews.map(review => <ReviewCard key={review.id} review={review} />)
                         }
                     </Row>
+                    <Button onClick={() => navigate("/reviews")}>Check All Review</Button>
                 </section>
             </Container>
         </>
