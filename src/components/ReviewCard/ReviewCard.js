@@ -9,7 +9,7 @@ const ReviewCard = ({ review }) => {
     return (
         <>
             <Col>
-                <Card>
+                <Card className="shadow rounded">
                     <Card.Body>
                         <div className="reviewContainer">
                             <div className="imageContainer">
